@@ -1,3 +1,4 @@
+import math
 def Suma(a,b):
     return a+b
 
@@ -10,18 +11,15 @@ def Division(a,b):
 def Multiplicacion(a,b):
     return (a*b)
 
-<<<<<<< HEAD
 def raiz(a,b):
-	//Se saca la raiz con la funcion sqrt
+	##Se saca la raiz con la funcion sqrt
 	raizz=math.sqrt(a)
 	raizz2=math.sqrt(b)
 	return raizz,raizz2
-    pass
-=======
-def raiz():
-    pass
-<<<<<<< HEAD
-=======
+
+
+
+
 
 
 def menu():
@@ -40,13 +38,17 @@ def menu():
 
         if(opc ==1):
             print('La suma es:',Suma(x,y))
+            break
         elif(opc ==2):
             print('La resta es:',Resta(x,y))
+            break
         elif(opc ==3):
             print('La Division es:',Division(x,y))
+            break
         elif(opc ==4):
             print('La Multiplicacion es:',Multiplicacion(x,y))
+            break
         elif(opc ==5):
-            print('La Raiz es:',Raiz(x,y))
+            print('La Raiz es:',raiz(x,y))
+            break
 menu()
->>>>>>> e45850b2d8dcfba844e87071e60549e920bea00d
