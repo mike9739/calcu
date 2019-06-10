@@ -10,6 +10,14 @@ def Division(a,b):
 def Multiplicacion(a,b):
     return (a*b)
 
+<<<<<<< HEAD
+def raiz(a,b):
+	//Se saca la raiz con la funcion sqrt
+	raizz=math.sqrt(a)
+	raizz2=math.sqrt(b)
+	return raizz,raizz2
+    pass
+=======
 def raiz():
     pass
 <<<<<<< HEAD
