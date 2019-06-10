@@ -10,8 +10,9 @@ def Division():
 def Multiplicacion():
     pass
 
-def raiz(a):
+def raiz(a,b):
 	//Se saca la raiz con la funcion sqrt
 	raizz=math.sqrt(a)
-	return raizz
+	raizz2=math.sqrt(b)
+	return raizz,raizz2
     pass
