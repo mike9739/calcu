@@ -4,8 +4,8 @@ def Suma(a,b):
 def Resta():
     pass
 
-def Division():
-    pass
+def Division(a,b):
+    return (a/b)
 
 def Multiplicacion():
     pass
