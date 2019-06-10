@@ -18,10 +18,6 @@ def raiz(a,b):
 	return raizz,raizz2
 
 
-
-
-
-
 def menu():
     print('\tCalculadora')
     print('1.-Suma')
@@ -52,3 +48,4 @@ def menu():
             print('La Raiz es:',raiz(x,y))
             break
 menu()
+
